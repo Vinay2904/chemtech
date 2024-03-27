@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>   
+  <!-- Import the css file -->
+    <link rel="stylesheet" href="./CSS/Combustion.css"> 
+    <link rel="stylesheet" href="./CSS/Main.css"> 
+    <link rel="stylesheet" href="./CSS/Menu.css">
+    <link rel="stylesheet" href="./CSS/table.css">
+    <link rel="stylesheet" href="./CSS/Compounfdownloader.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Pccoe Chem-Tech</title>  
+    <link rel="icon" href="./Image/pccologo.webp" type="image/x-icon">
+    <style>
+
+    </style>
+</head>
+<body>   
+       <!-- Splash screen of Project -->
+       <div id="Main-div">
+        <div id="Sub-Main-div"> 
+        <div class="animation-div" style="padding-top:150px">
+            <h1 class="label-maker header">WELCOME TO <span style="color:#0ef;">PCCOE</span></h1> 
+            <br>
+            <h2 class="label-maker">CHEM-TECH</h2>
+        </div>  
+        </div>
+    </div>
+  <!-- Menu Screen of Project -->
+  <div class="menu" id="menu">  
+    <div>
+        <h1 class="income-text"><span class="color-text2" style="color:black;">Welcome To Pccoe</span> <span class="color-text">Chem-Tech</span></h1>
+        <p class="sub-text">How Can I Help You ?</p>
+    </div>
+    <div class="sub-menu" style="padding:10px 20px;">
+            <button type="button" class="button" onclick="changeGame()">Combustion</button>
+            <button type="button" class="button"  onclick="changeGame1()">Peroidic  Table</button>
+            <button type="button" class="button"  onclick="changeGame2()">Compound Structure Downloader</button> 
+    </div>
+</div>
+
+
+<!-- Combustion reaction screen of Project -->
+
+  <div class="main"   id="main"> 
+    <div id="subdash">
+      <button onclick="goback_menu()">Go Back Menu</button>
+    </div>    
+  <h1 class="h1">Hydrocarbon Combustion</h1>   
+  <form style="width:400px;margin:auto"> 
+    <label for="hydrocarbon">Select a hydrocarbon:</label>
+    <select id="hydrocarbon">
+      <option value="methane">Methane</option>
+      <option value="ethane">Ethane</option>
+      <option value="propane">Propane</option>
+      <option value="butane">Butane</option>
+      <option value="pentane">Pentane</option>
+      <option value="hexane">Hexane</option>
+      <option value="heptane">Heptane</option>
+      <option value="octane">Octane</option>
+      <option value="nonane">Nonane</option>
+      <option value="decane">Decane</option>
+      <option value="undecane">Undecane</option>
+      <option value="dodecane">Dodecane </option>
+      <option value="tridecane">Tridecane</option>
+      <option value="tetradecane">Tetradecan</option>
+      <option value="pentadecane">Pentadecane</option>
+      <option value="hexadecane">Hexadecane</option>
+      <option value="heptadecane">Heptadecane</option>
+      <option value="octadecane">Octadecane</option>
+      <option value="nonadecane">Nonadecane</option>
+      <option value="eicosane">Eicosane</option>
+      <option value="heneicosane">Heneicosane</option>
+      <option value="docosane">Docosane</option>
+      <option value="tricosane">Tricosane</option>
+      <option value="tetracosane">Tetracosane</option>
+      <option value="pentacosane">Pentacosane</option>
+      <option value="hexacosane">Hexacosane</option>
+      <option value="heptacosane">Heptacosane</option>
+      <option value="octacosane">Octacosane</option>
+      <option value="nonacosane">Nonacosane</option>
+      <option value="triacontane">Triacontane</option>
+      <option value="hentriacontane">Hentriacontane</option>
+      <option value="dotriacontane">Dotriacontane</option>
+      <option value="tritriacontane">Tritriacontane</option>
+      <option value="tetratriacontane">Tetratriacontane (C34H70)</option>
+      <option value="pentatriacontane">Pentatriacontane (C35H72)</option>
+      <option value="hexatriacontane">Hexatriacontane (C36H74)</option>
+      <option value="heptatriacontane">Heptatriacontane (C37H76)</option>
+      <option value="octatriacontane">Octatriacontane (C38H78)</option>
+      <option value="nonatriacontane">Nonatriacontane (C39H80)</option>
+      <option value="tetracontane">Tetracontane (C40H82)</option>
+      <option value="hentetracontane">Hentetracontane (C41H84)</option>
+      <option value="dotetracontane">Dotetracontane (C42H86)</option>
+      <option value="tritetracontane">Tritetracontane (C43H88)</option>
+      <option value="tetratetracontane">Tetratetracontane (C44H90)</option>
+      <option value="pentatetracontane">Pentatetracontane (C45H92)</option>
+      <option value="hexatetracontane">Hexatetracontane (C46H94)</option>
+      <option value="heptatetracontane">Heptatetracontane (C47H96)</option>
+      <option value="octatetracontane">Octatetracontane (C48H98)</option>
+      <option value="nonatetracontane">Nonatetracontane (C49H100)</option>
+      <option value="pentacontane">Pentacontane (C50H102)</option>
+      <option value="hentriacontane">Hentriacontane (C51H104)</option>
+      <option value="dotriacontane">Dotriacontane (C52H106)</option>
+      <option value="tritriacontane">Tritriacontane (C53H108)</option>
+      <option value="tetratriacontane">Tetratriacontane (C54H110)</option>
+      <option value="pentatriacontane">Pentatriacontane (C55H112)</option>
+      <option value="hexatriacontane">Hexatriacontane (C56H114)</option>
+      <option value="heptatriacontane">Heptatriacontane (C57H116)</option>
+      <option value="octatriacontane">Octatriacontane (C58H118)</option>
+      <option value="nonatriacontane">Nonatriacontane (C59H120)</option>
+      <option value="hexacontane">Hexacontane (C60H122)</option>
+      <option value="hentetracontane">Hentetracontane (C61H124)</option>
+      <option value="dotetracontane">Dotetracontane (C62H126)</option>
+      <option value="tritetracontane">Tritetracontane (C63H128)</option>
+      <option value="tetratetracontane">Tetratetracontane (C64H130)</option>
+      <option value="pentatetracontane">Pentatetracontane (C65H132)</option>
+      <option value="hexatetracontane">Hexatetracontane (C66H134)</option>
+      <option value="heptatetracontane">Heptatetracontane (C67H136)</option>
+      <option value="octatetracontane">Octatetracontane (C68H138)</option>
+      <option value="nonatetracontane">Nonatetracontane (C69H140)</option>
+      <option value="heptacontane">Heptacontane (C70H142)</option>
+      <option value="hentriacontane">Hentriacontane (C71H144)</option>
+      <option value="dotriacontane">Dotriacontane (C72H146)</option>
+      <option value="tritriacontane">Tritriacontane (C73H148)</option>
+      <option value="tetratriacontane">Tetratriacontane (C74H150)</option>
+      <option value="pentatriacontane">Pentatriacontane (C75H152)</option>
+      <option value="hexatriacontane">Hexatriacontane (C76H154)</option>
+      <option value="heptatriacontane">Heptatriacontane (C77H156)</option>
+      <option value="octatriacontane">Octatriacontane (C78H158)</option>
+      <option value="nonatriacontane">Nonatriacontane (C79H160)</option>
+      <option value="octacontane">Octacontane (C80H162)</option>
+      <option value="hentetracontane">Hentetracontane (C81H164)</option>
+      <option value="dotetracontane">Dotetracontane (C82H166)</option>
+      <option value="tritetracontane">Tritetracontane (C83H168)</option>
+      <option value="tetratetracontane">Tetratetracontane (C84H170)</option>
+      <option value="pentatetracontane">Pentatetracontane (C85H172)</option>
+      <option value="hexatetracontane">Hexatetracontane (C86H174)</option>
+      <option value="heptatetracontane">Heptatetracontane (C87H176)</option>
+      <option value="octatetracontane">Octatetracontane (C88H178)</option>
+      <option value="nonatetracontane">Nonatetracontane</option>
+      <option value="nonacontane">Nonacontane</option>
+    </select> 
+
+    <label for="volume">Volume:</label>
+    <input type="range" id="volume" name="volume" min="0" max="100" step="1"><br/>
+    <output for="Volume" id="volumeOutput"></output>
+    <br/>  
+
+    <div class="range-labels">
+        <span id="rangeStartLabel">0</span>
+        <span id="rangeEndLabel">100</span>
+      </div>  
+
+    <button type="button" onclick="combust()">Combust</button>
+  </form>   
+  <div class="res-product" id="res-product"><i class="fa-solid fa-loader fa-spin" style="color: #db371a;"></i> Waiting For Response !</div>
+  <div class="product" id="d2" style="border:2px solid black;"> 
+        <div class="p1" id="p1"> 
+               <h5 id="s10"></h5> 
+               <h6> 1 mole</h6>
+               <h3><span id="s5"></span></h2>
+              
+        </div> 
+        <div style="margin-top:100px;width:70px;font-size:30px;">→</div>
+        <div class="p1" id="p2">
+            <h5><span class="s1"></span>C02</h5>
+            <h6><span  class="s1"></span>mole</h6>
+            <h3>Carbon-di-oxide</h2>
+        </div>
+        <div style="margin-top:100px;width:70px;font-size:30px;">+</div>
+        <div class="p1" id="p3">
+            <h5><span class="s2"></span>H20</h5>
+            <h6><span class="s2"></span>mole</h6>
+            <h3>Water</h2>
+        </div>
+        </div>
+  <div id="s4" style="margin-left:60px;"><h4>The Volume Of Oxygen  is Required for Combustion of Hydrocarbon is <span id="s3" style="color:#e91c0d;font-size:25px;margin-top:14px;"></span></h4></div>
+  </div> 
+
+   <!-- Peroidic Table of screen of project -->
+   <div id="table">
+    <div id="subdash">
+      <button onclick="goback_menu1()">Go Back Menu</button>
+    </div>
+    <header>
+      <h1>Periodic Table of Elements</h1>
+    </header>
+    <main class="main-table">
+      <table id="element-table">
+        <thead>
+          <tr>
+            <th>Element Name</th>
+            <th>Atomic Number</th>
+            <th>Symbol</th>
+            <th>Electro-Configuration</th>
+            <th>Melting Point</th>
+            <th>Boiling Point</th>
+            <th>Group-Block</th>
+          </tr>
+        </thead>
+        <tbody id="s1">
+        </tbody>
+      </table>
+      <button type="button" onclick="shree200()">click me</button>
+    </main>
+    </div>
+
+    <!-- Compound  Downloader --> 
+    <div class="container" id="container">
+      <div id="subdash">
+        <button onclick="goback_menu2()">Go Back Menu</button>
+      </div>
+      <h1 class="h1maker">Compound Image Downloader</h1> 
+      <form action="">
+           <label for="takingname" class="label100">Enter the Compound name:</label>
+           <input type="text" name="name" id="namestart" oninput="Delete_The_Component('Molecular-Div')">
+           <button type="button" onclick="OnSubmit()" class="button">Submit</button>
+      </form>  
+      <div id="Compound-Image">
+         <div id="Molecular-Div"> 
+           <h3>Molecular Formula : <span id="Molecular-formula"></span> </h3>
+      </div>
+      <button type="button" onclick="Download_Image()" style="padding:10px;font-size:20px;margin-top:10px;">download</button>
+       </div>
+</div>
+</body> 
+<!-- Importing  js file -->
+<script src="./Script/Combustion.js"></script>  
+<script src="./Script/Compound.js"></script>  
+<script src="./Script/Start.js"></script>
+<script src="/Script/table.js"></script>
+</html>

@@ -1,0 +1,56 @@
+body 
+{
+     padding:0px;
+     margin:0px;
+}
+#Main-div 
+{ 
+width:100%;
+height:10000px;
+background-image:url("./temp.jpeg");
+}
+      .label-maker {
+display: inline-block;
+padding: 10px;
+font-size: 33px;
+background-color: yellow;
+animation: blinding 2s infinite;
+margin:08px;
+}  
+
+#Sub-Main-div 
+{
+  width:380px;
+  text-align:center;
+  margin:auto; 
+}
+@keyframes blinding {
+0% {
+opacity: 1;
+}
+50% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+
+
+.label-maker 
+{
+  font-size:40px;
+}
+.header 
+{ 
+color:rgb(246, 43, 77);
+}
+
+
+@media screen  and (min-width:300px) and (max-width:500px) {
+  
+.label-maker 
+{
+  font-size:34px;
+}
+}

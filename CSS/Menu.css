@@ -1,0 +1,60 @@
+.menu 
+{
+     width:600px; 
+     border:1px solid black; 
+     padding:10px;
+     margin:auto;
+     margin-top:100px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     background-color:white;
+     text-align:center;
+     display:none;
+}
+.income-text 
+{
+     font-size:40px;
+}
+.sub-text 
+{
+    font-size:20px;
+    font-weight:bold;  
+    font-style:italic;
+}
+.button {
+padding:10px 20px;
+font-size: 20px;
+background-color: #4CAF50;
+color: #fff;
+border: none;   
+margin:10px;
+margin-left:20px;
+width:200px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.button:hover {
+background-color:yellow;
+color:black;
+font-style:italic;
+} 
+
+.color-text 
+{
+color:rgb(209, 32, 147);
+}
+@media screen  and (min-width:350px) and (max-width:550px) 
+{
+.menu 
+{
+width:300px;
+}
+.income-text 
+{
+ font-size:30px;
+}
+.sub-text
+{
+font-size:17px;
+}
+}
